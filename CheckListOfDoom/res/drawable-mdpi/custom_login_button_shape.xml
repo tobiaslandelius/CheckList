@@ -2,12 +2,12 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item><layer-list>
-            <item android:right="5dp" android:top="5dp"><shape>
+            <item android:right="3dp" android:top="3dp"><shape>
                     <corners android:radius="9dp" />
                     <gradient android:angle="270" android:endColor="#3D3D4C" android:startColor="#292933" />
                 </shape></item>
             <item android:bottom="2dp" android:left="2dp"><shape android:shape="rectangle">
-                    <gradient android:angle="270" android:endColor="#e1ffff" android:startColor="#431cf4" />
+                    <gradient android:angle="270" android:endColor="#FFB280" android:startColor="#993D00" />
 
                     <corners android:bottomLeftRadius="9dp" android:bottomRightRadius="9dp" android:topLeftRadius="9dp" android:topRightRadius="9dp" />
 

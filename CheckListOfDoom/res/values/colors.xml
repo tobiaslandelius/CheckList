@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <color android:id="@+id/login_screen_color" name="login_screen" android:layout_width="wrap_content" android:layout_height="wrap_content">#D1FFA3</color>
+    <color android:id="@+id/login_screen_color" name="login_screen" android:layout_width="wrap_content" android:layout_height="wrap_content">#DCE775</color>
     <color android:id="@+id/login_text_field_color" name="login_text_field" android:layout_width="wrap_content" android:layout_height="wrap_content">#FFEBE0</color>
     <color android:id="@+id/login_button_color" name="login_button" android:layout_width="wrap_content" android:layout_height="wrap_content">#C5CCDA</color>
     <color android:id="@+id/warning_text_color" name="warning_text" android:layout_width="wrap_content" android:layout_height="wrap_content">#CC0000</color>

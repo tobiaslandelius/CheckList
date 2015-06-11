@@ -13,7 +13,7 @@
         android:layout_height="40dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:background="@color/login_text_field"
+        android:background="@drawable/custom_login_edittext_drawable"
         android:ems="10"
         android:hint="@string/new_password_hint"
         android:inputType="textPassword"
@@ -27,7 +27,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginTop="28dp"
-        android:background="@color/login_text_field"
+        android:background="@drawable/custom_login_edittext_drawable"
         android:ems="10"
         android:hint="@string/repeat_password_hint"
         android:inputType="textPassword"
@@ -41,7 +41,7 @@
         android:layout_alignLeft="@+id/new_password_edit_text"
         android:layout_alignRight="@+id/new_password_edit_text"
         android:layout_marginBottom="28dp"
-        android:background="@color/login_text_field"
+        android:background="@drawable/custom_login_edittext_drawable"
         android:ems="10"
         android:hint="@string/new_username_hint"
         android:inputType="textPersonName"
@@ -75,8 +75,8 @@
         android:layout_alignRight="@+id/repeat_new_password_edit_text"
         android:layout_below="@+id/new_password_edit_text"
         android:layout_marginTop="10dp"
-        android:paddingLeft="25dp" 
-        android:textColor="@color/warning_text"/>
+        android:paddingLeft="25dp"
+        android:textColor="@color/warning_text" />
 
     <Button
         android:id="@+id/confirm_sign_up_button"
@@ -85,6 +85,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
+        android:background="@drawable/custom_login_button_drawable"
         android:ellipsize="start"
         android:text="@string/sign_up"
         android:width="156dp" />
@@ -98,6 +99,6 @@
         android:layout_alignRight="@+id/repeat_new_password_edit_text"
         android:layout_marginBottom="16dp"
         android:gravity="center_horizontal"
-        android:textColor="@color/warning_text"/>
+        android:textColor="@color/warning_text" />
 
 </RelativeLayout>
