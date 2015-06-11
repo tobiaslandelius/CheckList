@@ -41,7 +41,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:text="@string/login"
-        android:width="156dp" />
+        android:width="156dp" 
+        android:background="@drawable/custom_login_button_drawable"/>
 
     <TextView
         android:id="@+id/password_warning_textfield"
@@ -92,6 +93,7 @@
         android:layout_below="@+id/or_textfield"
         android:layout_alignRight="@+id/login_button"
         android:layout_marginTop="12dp"
+        android:background="@drawable/custom_login_button_drawable"
         android:text="@string/sign_up" />
 
 </RelativeLayout>
