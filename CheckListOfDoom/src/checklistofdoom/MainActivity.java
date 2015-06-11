@@ -4,10 +4,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import listviews.*;
-
 import com.example.checklistofdoom.R;
 
+import listviews.*;
 import util.BackgroundContainer;
 import util.Cheeses;
 import util.Identifier;
@@ -25,7 +24,7 @@ import android.view.ViewTreeObserver;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
-
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -39,18 +38,18 @@ public class MainActivity extends Activity {
 
 	private HashMap<Long, Integer> mItemIdTopMap = new HashMap<Long, Integer>();
 	private BackgroundContainer mBackgroundContainer;
-	
+
 	private Button addButton;
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
-		//		 Inflate login procedure
-		 Intent intent = new Intent(this, LoginActivity.class);
-		 startActivityForResult(intent, 1);
-		 
+		// Inflate login procedure
+		// Intent intent = new Intent(this, LoginActivity.class);
+		// startActivityForResult(intent, 1);
+		Toast.makeText(this, "whatever", Toast.LENGTH_SHORT);
 		run();
 	}
 
@@ -60,16 +59,17 @@ public class MainActivity extends Activity {
 		mListView = (ListView) findViewById(R.id.list_view);
 		addButton = (Button) findViewById(R.id.add_button);
 		addButton.setOnClickListener(addButtonOnClickListener);
-		
+
 		List<ListItem> values = new ArrayList<ListItem>();
-//		for (int i = 0; i < 4; i++) {
-//			values.add(new ListItem(Cheeses.sCheeseStrings[i], this));
-//		}
+		// for (int i = 0; i < 4; i++) {
+		// values.add(new ListItem(Cheeses.sCheeseStrings[i], this));
+		// }
 
 		mBackgroundContainer = (BackgroundContainer) findViewById(R.id.backgroundContainer1);
 
 		mAdapter = new ListViewItemIdentifierAdapter(this,
-				R.layout.single_listview_item_identifier, R.id.stuff, values, mTouchListener);
+				R.layout.single_listview_item_identifier, R.id.stuff, values,
+				mTouchListener);
 		mListView.setAdapter(mAdapter);
 		mListView.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
 	}
@@ -106,9 +106,9 @@ public class MainActivity extends Activity {
 			break;
 		}
 	}
-	
+
 	View.OnClickListener addButtonOnClickListener = new View.OnClickListener() {
-		
+
 		@Override
 		public void onClick(View v) {
 			mAdapter.add(new ListItem("HAHAHAH", MainActivity.this));
