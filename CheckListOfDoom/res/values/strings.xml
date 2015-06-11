@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Check List of Doom</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string android:id="@+id/username_hint" name="username_hint" android:layout_width="wrap_content" android:layout_height="wrap_content">Username</string>
+    <string android:id="@+id/password_hint" name="password_hint" android:layout_width="wrap_content" android:layout_height="wrap_content">Password</string>
+    <string android:id="@+id/new_username_hint" name="new_username_hint" android:layout_width="wrap_content" android:layout_height="wrap_content">New Username</string>
+    <string android:id="@+id/new_password_hint" name="new_password_hint" android:layout_width="wrap_content" android:layout_height="wrap_content">New Password</string>
+    <string android:id="@+id/repeat_password_hint" name="repeat_password_hint" android:layout_width="wrap_content" android:layout_height="wrap_content">Confirm Password</string>
+    <string android:id="@+id/login" name="login" android:layout_width="wrap_content" android:layout_height="wrap_content">Login</string>
+    <string android:id="@+id/or" name="or" android:layout_width="wrap_content" android:layout_height="wrap_content">Or</string>
+    <string android:id="@+id/signUp" name="sign_up" android:layout_width="wrap_content" android:layout_height="wrap_content">Sign up</string>
+    <string android:id="@+id/add" name="add" android:layout_width="wrap_content" android:layout_height="wrap_content">Add</string>
+    <string android:id="@+id/list_view" name="list_view" android:layout_width="wrap_content" android:layout_height="wrap_content">List View</string>
+    <string android:id="@+id/login_activity_label" name="login_activity_label" android:layout_width="wrap_content" android:layout_height="wrap_content">Login Activity</string>
+    <string android:id="@+id/sign_up_activity_label" name="sign_up_activity_label" android:layout_width="wrap_content" android:layout_height="wrap_content">Sign up Activity</string>
+
+</resources>
