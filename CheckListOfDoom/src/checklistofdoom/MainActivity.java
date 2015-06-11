@@ -48,8 +48,8 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		//		 Inflate login procedure
-//		 Intent intent = new Intent(this, LoginActivity.class);
-//		 startActivityForResult(intent, 1);
+		 Intent intent = new Intent(this, LoginActivity.class);
+		 startActivityForResult(intent, 1);
 		 
 		run();
 	}
